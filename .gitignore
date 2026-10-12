@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+
+outputs/
+*.safetensors
+*.pt
+
+*.pdf
+
+.env
+.cache/
+
+last_500_lines.txt
+output.txt
+slurm*.out
+slurm*.err
+*.log
+
+
+# Ignore generated model outputs
+outputs/
+
+# Ignore Git metadata and virtual environments
+.git/
+venv/
+.venv/
+__pycache__/
+*.pyc
